@@ -7,7 +7,11 @@ h1{
 .orange-color{
     color:orange;
 }
-section{
+.your{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.flexible-container{
     display:flex;
     margin-bottom: 500px ;
 }
@@ -31,4 +35,26 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     margin-bottom: 100px;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#pro{
+    border-left: 10px solid tomato;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px yellow;
+}
+#kochi{
+    border-left: 10px solid purple ;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px yellow;
+}
+footer p{
+    text-align:center;
+    font-weight: 700;
+    color: tomato;
 }
